@@ -47,3 +47,5 @@ If you create a slice using make, we have the capacity(cap) and the length(len)
 
 **len** - number of elements currently in the slice
 **cap** - total number of elements the slice can hold
+
+**Untyped constants** written without ecplicitly giving it a type. goves it precision and allows you to adapt to any type you want later without stricyt type errors.
