@@ -2,25 +2,25 @@ package main
 
 import "fmt"
 
-type vehicle interface{
+type vehicle interface {
 	getSpeed() float64
 	getDistance() float64
 }
 
-type car struct{
-	brand   string
-	year	int
+type car struct {
+	brand string
+	year  int
 }
 
-func (Car car) getSpeed() float64{
+func (Car car) getSpeed() float64 {
 	return 120
 }
 
-func (Car car) getDistance() float64{
+func (Car car) getDistance() float64 {
 	return 4000
 }
 
-func main(){
+func main() {
 	var veh vehicle
 	veh = car{
 		"Lambo",
