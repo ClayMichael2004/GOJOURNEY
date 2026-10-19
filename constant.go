@@ -1,7 +1,8 @@
 package main
 
 import "fmt"
-//JVAL is global coz its declared outside the main function
+
+// JVAL is global coz its declared outside the main function
 const JVAL = 5.87
 
 func main() {
