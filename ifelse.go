@@ -10,7 +10,7 @@ func main() {
 	boolA := false
 	if boolA {
 		fmt.Println(str)
-	} else{
+	} else {
 		fmt.Println(defaultStr)
-	}  
+	}
 }

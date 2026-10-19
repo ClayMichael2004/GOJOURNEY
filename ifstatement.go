@@ -9,5 +9,5 @@ func main() {
 	boolA := true
 	if boolA {
 		fmt.Println(str)
-	}     
+	}
 }
